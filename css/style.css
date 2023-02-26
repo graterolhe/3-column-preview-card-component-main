@@ -1,0 +1,87 @@
+body{
+    background-color: white;
+}
+
+.tarjeta{
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    top: 15vh;
+    margin: 0px;
+}
+
+.seccion1{
+    background-color: hsl(31, 77%, 52%);
+    width: 200px;
+    height: 370px;
+    display: inline-block;
+    text-align: left;
+    padding: 20px 30px;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: 0px;
+}
+
+.seccion2{
+    background-color: hsl(184, 100%, 22%);
+    width: 200px;
+    height: 370px;
+    display: inline-block;
+    text-align: left;
+    padding: 20px 30px;
+    margin-left: -4px;
+}
+
+.seccion3{
+    background-color: hsl(179, 100%, 13%);
+    width: 200px;
+    height: 370px;
+    display: inline-block;
+    text-align: left;
+    padding: 20px 30px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -4px;
+}
+
+.titulos{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.texto{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.boton{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-color: white;
+    border-width: 5px;
+    display: block;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 60px;
+}
+boton:hover{
+    background-color: rgba(211, 211, 211, 0.692);
+}
+
+img{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
